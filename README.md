@@ -8,11 +8,12 @@ To explore basic building blocks of MCP and intricacies of tool calling within M
 <li> Debugging server using MCP Inspector </li
 <li> A MCP-based client that takes a query from the user to perform the above mentioned operations </li>
 
+
 #### Future possibilities for quick concept exploration
 <li>Sequential tool calling</li>
 <li> Storage of previous chat history is not supported to maintain simplicity </li>
 <li> Input validation by server </li>
-
+<br>
 
 <b> 🚨 Most of the technolgies used in this repo like FastMCP, tool calling in anthropic and MCP itself are very recent. So there are some features in these technologies that are either not available or buggy. But the main goal is a simple exploration without using cursor or Claude Desktop 🚨 </b>
 
