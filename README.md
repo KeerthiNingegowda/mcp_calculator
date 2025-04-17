@@ -1,7 +1,7 @@
 # A simple calculator app using Model Context protocol
 
 #### Purpose of this repo
-To explore basic building blocks of MCP and intricacies of tool calling within MCP, from scratch. Keeping it as simple as possible without handling many edge cases.
+To explore basic building blocks of MCP and intricacies of tool calling within MCP, from scratch. Keeping it as simple as possible without handling many edge cases. Understand how to build both MCP Server and clients.
 
 #### Core Features
 <li> A calculator app to do add, subtract, multiply, divide and modulo</li>
@@ -20,6 +20,13 @@ Is built using FastMCP, due to its simplicty and automatic error handling.
 Points to remember:-
 <li> Always name the server either as mcp or server or app. Throws an error otherwise and is quite explicit </li>
 <li>Annotations can be included as a future reference. Right now it is not supported in FastMCP for the version in uv.lock</li>
+
+#### MCP client
+Makes a connection to MCP server and should have access to LLM
+Would higly suggest to explore and inspect the objects returned when the model uses a tool and a genertic reponse
+Try to stress test giving numbers in different format. 
+Eg:- Add 2 and 3 v/s Add two and three.
+Eg:- Try to use ambiguous and large numbers:- Add seven hundred thousand trillion with three hundred billion
 
 #### To reproduce the working environment
 `uv sync`
