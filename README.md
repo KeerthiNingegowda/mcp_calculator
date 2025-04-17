@@ -30,6 +30,7 @@ Eg:- Add 2 and 3 v/s Add two and three.
 Eg:- Try to use ambiguous and large numbers:- Add seven hundred thousand trillion with three hundred billion
 
 #### Workflow overview
+![alt text](MCP.png)
 
 
 #### To reproduce the working environment
