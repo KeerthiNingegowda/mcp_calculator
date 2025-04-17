@@ -1,0 +1,57 @@
+
+{
+    "add_function":{
+
+        "annotations": {
+            "title": "Addition",
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+        }
+    }, 
+
+    "subtract_function":{
+
+        "annotations": {
+            "title": "Subtract",
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+        }
+    }, 
+
+    "multiply_function":{
+
+        "annotations": {
+            "title": "Multiplication",
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+        }
+    }, 
+
+    "division_function":{
+
+        "annotations": {
+            "title": "Division",
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+        }
+    }, 
+
+    "modulo_function":{
+
+        "annotations": {
+            "title": "Modulo",
+            "readOnlyHint": true,
+            "destructiveHint": false,
+            "openWorldHint": false
+        }
+    }
+
+
+}
+
+
+
