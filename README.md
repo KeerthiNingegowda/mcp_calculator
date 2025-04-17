@@ -11,6 +11,7 @@ To explore basic building blocks of MCP and intricacies of tool calling within M
 #### Future possibilities for quick concept exploration
 <li>Sequential tool calling</li>
 <li> Storage of previous chat history is not supported to maintain simplicity </li>
+<li> Input validation by server </li>
 
 
 <b> 🚨 Most of the technolgies used in this repo like FastMCP, tool calling in anthropic and MCP itself are very recent. So there are some features in these technologies that are either not available or buggy. But the main goal is a simple exploration without using cursor or Claude Desktop 🚨 </b>
@@ -27,6 +28,9 @@ Would higly suggest to explore and inspect the objects returned when the model u
 Try to stress test giving numbers in different format. 
 Eg:- Add 2 and 3 v/s Add two and three.
 Eg:- Try to use ambiguous and large numbers:- Add seven hundred thousand trillion with three hundred billion
+
+#### Workflow overview
+
 
 #### To reproduce the working environment
 `uv sync`
