@@ -34,9 +34,20 @@ Eg:- Try to use ambiguous and large numbers:- Add seven hundred thousand trillio
 ![alt text](MCP.png)
 
 
-#### To reproduce the working environment
+#### To reproduce the working environment whre .toml file is located 
 `uv sync`
 
+#### TO activate the working environment use
+`source .venv/bin/activate`
+
+#### To simply inspect the server
+Go to fastmcp_calculator_server folder and run <br>
+`mcp dev server.py`
+
 Add your anthropic API key to .env file
+
+#### To run the whole MCP app
+Go to mcp_calculator/mcp_compliant_client and run <br>
+`python client.py <path to server.py>`
 
 More about this on link to medium article.
