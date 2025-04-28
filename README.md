@@ -12,7 +12,7 @@ To explore basic building blocks of MCP and intricacies of tool calling within M
 #### Future possibilities for quick concept exploration
 <li>Sequential tool calling</li>
 <li> Storage of previous chat history is not supported to maintain simplicity </li>
-<li> Input validation by server </li>
+<li> Input validation by server and/or client </li>
 <br>
 
 <b> 🚨 Most of the technolgies used in this repo like FastMCP, tool calling in anthropic and MCP itself are very recent. So there are some features in these technologies that are either not available or buggy. But the main goal is a simple exploration without using cursor or Claude Desktop 🚨 </b>
