@@ -43,6 +43,7 @@ Eg:- Try to use ambiguous and large numbers:- Add seven hundred thousand trillio
 #### To simply inspect the server
 Go to fastmcp_calculator_server folder and run <br>
 `mcp dev server.py`
+![alt_text](MCP_Inspector.png)
 
 Add your anthropic API key to .env file
 
