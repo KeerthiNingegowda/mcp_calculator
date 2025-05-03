@@ -50,4 +50,4 @@ Add your anthropic API key to .env file
 Go to mcp_calculator/mcp_compliant_client and run <br>
 `python client.py <path to server.py>`
 
-More about this on link to medium article.
+More about this on <a href='https://medium.com/@keerthi.ningegowda/mcp-to-fix-mcp-model-context-protocol-solves-most-common-problems-part-2-35348a08ae0d'> medium. </a>
